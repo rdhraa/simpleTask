@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(14, 14, 119);
+}
+.task-space{
+    background-color: bisque;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+   
+}
+#task{
+    height: 30px;
+    width: 500px;
+    border-radius: 6px;
+    border-color: grey;
+    
+}
+input{
+    border: 0.5px solid ;
+}
+input:focus{
+    border: 2px solid lightskyblue;
+    outline: 2px solid lightskyblue;
+}
+#add{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    background-color: rgb(50, 195, 50);
+    color: white;
+    border-radius: 6px;
+    border: 1px gray;
+}
+#remove{
+    height: 30px;
+    width: 150px;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    border: 1px gray;
+}
+#task-list {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+#task-list li {
+    background-color: rgb(245, 211, 197); 
+    padding: 15px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    width: 80vw; 
+    margin: 10px auto; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+}
